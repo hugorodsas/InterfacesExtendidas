@@ -1,7 +1,7 @@
 public class Telefono implements Wifi,Bluetooth{
     @Override
     public void conectar() {
-        Bluetooth.super.conectar();
+        Wifi.super.conectar();
 
         System.out.println("Conexion realizada");
     }
